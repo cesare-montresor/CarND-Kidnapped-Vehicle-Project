@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D310E3C21F3C389A00E995D3 /* particle_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D310E3C01F3C389A00E995D3 /* particle_filter.cpp */; };
+		F2566823C62B450D8818A7DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05B94455C3184D0CBEBC1DDE /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03E9C60386AB4C90B7A90142 /* ParticleFilter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ParticleFilter; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B94455C3184D0CBEBC1DDE /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		8124868A288644A6851F1969 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D310E3BE1F3C389A00E995D3 /* helper_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helper_functions.h; path = src/helper_functions.h; sourceTree = "<group>"; };
+		D310E3BF1F3C389A00E995D3 /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = map.h; path = src/map.h; sourceTree = "<group>"; };
+		D310E3C01F3C389A00E995D3 /* particle_filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = particle_filter.cpp; path = src/particle_filter.cpp; sourceTree = "<group>"; };
+		D310E3C11F3C389A00E995D3 /* particle_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = particle_filter.h; path = src/particle_filter.h; sourceTree = "<group>"; };
+		D3E9D4BE1EF0FFD0004F6248 /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = json.hpp; path = src/json.hpp; sourceTree = "<group>"; };
+		D3EB00F31F3C3A310009ADE4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3E5ED388B7DB4A11BBB6EADA /* ParticleFilter */ = {
+			isa = PBXGroup;
+			children = (
+				6A0B93206D774EA3B8BBC4E8 /* Source Files */,
+				8124868A288644A6851F1969 /* CMakeLists.txt */,
+			);
+			name = ParticleFilter;
+			sourceTree = "<group>";
+		};
+		6A0B93206D774EA3B8BBC4E8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				05B94455C3184D0CBEBC1DDE /* main.cpp */,
+				D310E3BE1F3C389A00E995D3 /* helper_functions.h */,
+				D310E3BF1F3C389A00E995D3 /* map.h */,
+				D310E3C01F3C389A00E995D3 /* particle_filter.cpp */,
+				D310E3C11F3C389A00E995D3 /* particle_filter.h */,
+				D3E9D4BE1EF0FFD0004F6248 /* json.hpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7FAEA07B273F407489FC439B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A99F696BA5664459AEFA16C6 = {
+			isa = PBXGroup;
+			children = (
+				C8DE8CFB24EC4A39B8750AD4 /* Sources */,
+				7FAEA07B273F407489FC439B /* Resources */,
+				F32C217EC249478D8440B3D7 /* Products */,
+				D3EB00F31F3C3A310009ADE4 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		C8DE8CFB24EC4A39B8750AD4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3E5ED388B7DB4A11BBB6EADA /* ParticleFilter */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		F32C217EC249478D8440B3D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E9C60386AB4C90B7A90142 /* ParticleFilter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E700A465E0C48EEB4A6EBCB /* ParticleFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBF4005A863421A869D5EA1 /* Build configuration list for PBXNativeTarget "ParticleFilter" */;
+			buildPhases = (
+				1A4C4CEDA3E842FFB6ACD2A8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleFilter;
+			productName = ExtendedKF;
+			productReference = 03E9C60386AB4C90B7A90142 /* ParticleFilter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F527001E9FCA4B508CC38571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = 9ACA94807F4C4ACC8471F277 /* Build configuration list for PBXProject "ParticleFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A99F696BA5664459AEFA16C6;
+			projectDirPath = ../../;
+			projectRoot = "";
+			targets = (
+				0E700A465E0C48EEB4A6EBCB /* ParticleFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A4C4CEDA3E842FFB6ACD2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2566823C62B450D8818A7DD /* main.cpp in Sources */,
+				D310E3C21F3C389A00E995D3 /* particle_filter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		170265A6B5C1442AA53C320C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = ide_profiles/xcode/build;
+			};
+			name = Release;
+		};
+		31CFC6E7E5624FDC9CAD8A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.11.0/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-I/usr/local/include",
+					"-I/usr/local/opt/openssl/include",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ParticleFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = ide_profiles/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		34FE6ECE2E2445979A84EB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.11.0/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-I/usr/local/include",
+					"-I/usr/local/opt/openssl/include",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ParticleFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = ide_profiles/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		51C3B712A6004E72AA9BD3BF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = ide_profiles/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		656C3E4B3EA94E539D878502 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.11.0/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-I/usr/local/include",
+					"-I/usr/local/opt/openssl/include",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ParticleFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = ide_profiles/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		8BBF7395E511456480D441FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.11.0/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-I/usr/local/include",
+					"-I/usr/local/opt/openssl/include",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ParticleFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = ide_profiles/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		D1107D1E613547898D29CF88 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = ide_profiles/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F7E922EDC6664FA291F79260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = ide_profiles/xcode/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EBF4005A863421A869D5EA1 /* Build configuration list for PBXNativeTarget "ParticleFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FE6ECE2E2445979A84EB15 /* Debug */,
+				31CFC6E7E5624FDC9CAD8A8F /* Release */,
+				8BBF7395E511456480D441FC /* MinSizeRel */,
+				656C3E4B3EA94E539D878502 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9ACA94807F4C4ACC8471F277 /* Build configuration list for PBXProject "ParticleFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E922EDC6664FA291F79260 /* Debug */,
+				170265A6B5C1442AA53C320C /* Release */,
+				51C3B712A6004E72AA9BD3BF /* MinSizeRel */,
+				D1107D1E613547898D29CF88 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F527001E9FCA4B508CC38571 /* Project object */;
+}

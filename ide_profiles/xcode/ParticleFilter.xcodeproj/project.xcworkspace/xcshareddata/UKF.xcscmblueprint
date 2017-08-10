@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "89FE43A25742E0F927012FCE07035176D1A0B53C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3204905A4DA138C84B526F446430DA22E2DCD023" : 9223372036854775807,
+    "89FE43A25742E0F927012FCE07035176D1A0B53C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2070A5FA-C7BD-4765-BC0A-38EEDB998104",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3204905A4DA138C84B526F446430DA22E2DCD023" : "CarND-Extended-Kalman-Filter-Project\/",
+    "89FE43A25742E0F927012FCE07035176D1A0B53C" : "CarND-Unscented-Kalman-Filter-Project\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UKF",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ide_profiles\/xcode\/UKF.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cesare-montresor\/CarND-Extended-Kalman-Filter-Project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3204905A4DA138C84B526F446430DA22E2DCD023"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cesare-montresor\/CarND-Unscented-Kalman-Filter-Project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "89FE43A25742E0F927012FCE07035176D1A0B53C"
+    }
+  ]
+}
